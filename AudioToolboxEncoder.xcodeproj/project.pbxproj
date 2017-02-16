@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C3FDEE1E55AD09004AB860 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3FDED1E55AD09004AB860 /* main.m */; };
+		18C3FDF11E55AD09004AB860 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3FDF01E55AD09004AB860 /* AppDelegate.m */; };
+		18C3FDF41E55AD09004AB860 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3FDF31E55AD09004AB860 /* ViewController.m */; };
+		18C3FDF71E55AD0A004AB860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C3FDF51E55AD0A004AB860 /* Main.storyboard */; };
+		18C3FDF91E55AD0A004AB860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C3FDF81E55AD0A004AB860 /* Assets.xcassets */; };
+		18C3FDFC1E55AD0A004AB860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C3FDFA1E55AD0A004AB860 /* LaunchScreen.storyboard */; };
+		18C3FE071E55AD0A004AB860 /* AudioToolboxEncoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3FE061E55AD0A004AB860 /* AudioToolboxEncoderTests.m */; };
+		18C3FE121E55AD0A004AB860 /* AudioToolboxEncoderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3FE111E55AD0A004AB860 /* AudioToolboxEncoderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C3FE031E55AD0A004AB860 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C3FDE11E55AD08004AB860 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C3FDE81E55AD08004AB860;
+			remoteInfo = AudioToolboxEncoder;
+		};
+		18C3FE0E1E55AD0A004AB860 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C3FDE11E55AD08004AB860 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C3FDE81E55AD08004AB860;
+			remoteInfo = AudioToolboxEncoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C3FDE91E55AD09004AB860 /* AudioToolboxEncoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioToolboxEncoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C3FDED1E55AD09004AB860 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18C3FDEF1E55AD09004AB860 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18C3FDF01E55AD09004AB860 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18C3FDF21E55AD09004AB860 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18C3FDF31E55AD09004AB860 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18C3FDF61E55AD0A004AB860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C3FDF81E55AD0A004AB860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C3FDFB1E55AD0A004AB860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C3FDFD1E55AD0A004AB860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C3FE021E55AD0A004AB860 /* AudioToolboxEncoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioToolboxEncoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C3FE061E55AD0A004AB860 /* AudioToolboxEncoderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolboxEncoderTests.m; sourceTree = "<group>"; };
+		18C3FE081E55AD0A004AB860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C3FE0D1E55AD0A004AB860 /* AudioToolboxEncoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioToolboxEncoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C3FE111E55AD0A004AB860 /* AudioToolboxEncoderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolboxEncoderUITests.m; sourceTree = "<group>"; };
+		18C3FE131E55AD0A004AB860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C3FDE61E55AD08004AB860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C3FDFF1E55AD0A004AB860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C3FE0A1E55AD0A004AB860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C3FDE01E55AD08004AB860 = {
+			isa = PBXGroup;
+			children = (
+				18C3FDEB1E55AD09004AB860 /* AudioToolboxEncoder */,
+				18C3FE051E55AD0A004AB860 /* AudioToolboxEncoderTests */,
+				18C3FE101E55AD0A004AB860 /* AudioToolboxEncoderUITests */,
+				18C3FDEA1E55AD09004AB860 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18C3FDEA1E55AD09004AB860 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C3FDE91E55AD09004AB860 /* AudioToolboxEncoder.app */,
+				18C3FE021E55AD0A004AB860 /* AudioToolboxEncoderTests.xctest */,
+				18C3FE0D1E55AD0A004AB860 /* AudioToolboxEncoderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C3FDEB1E55AD09004AB860 /* AudioToolboxEncoder */ = {
+			isa = PBXGroup;
+			children = (
+				18C3FDEF1E55AD09004AB860 /* AppDelegate.h */,
+				18C3FDF01E55AD09004AB860 /* AppDelegate.m */,
+				18C3FDF21E55AD09004AB860 /* ViewController.h */,
+				18C3FDF31E55AD09004AB860 /* ViewController.m */,
+				18C3FDF51E55AD0A004AB860 /* Main.storyboard */,
+				18C3FDF81E55AD0A004AB860 /* Assets.xcassets */,
+				18C3FDFA1E55AD0A004AB860 /* LaunchScreen.storyboard */,
+				18C3FDFD1E55AD0A004AB860 /* Info.plist */,
+				18C3FDEC1E55AD09004AB860 /* Supporting Files */,
+			);
+			path = AudioToolboxEncoder;
+			sourceTree = "<group>";
+		};
+		18C3FDEC1E55AD09004AB860 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C3FDED1E55AD09004AB860 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18C3FE051E55AD0A004AB860 /* AudioToolboxEncoderTests */ = {
+			isa = PBXGroup;
+			children = (
+				18C3FE061E55AD0A004AB860 /* AudioToolboxEncoderTests.m */,
+				18C3FE081E55AD0A004AB860 /* Info.plist */,
+			);
+			path = AudioToolboxEncoderTests;
+			sourceTree = "<group>";
+		};
+		18C3FE101E55AD0A004AB860 /* AudioToolboxEncoderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18C3FE111E55AD0A004AB860 /* AudioToolboxEncoderUITests.m */,
+				18C3FE131E55AD0A004AB860 /* Info.plist */,
+			);
+			path = AudioToolboxEncoderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C3FDE81E55AD08004AB860 /* AudioToolboxEncoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C3FE161E55AD0A004AB860 /* Build configuration list for PBXNativeTarget "AudioToolboxEncoder" */;
+			buildPhases = (
+				18C3FDE51E55AD08004AB860 /* Sources */,
+				18C3FDE61E55AD08004AB860 /* Frameworks */,
+				18C3FDE71E55AD08004AB860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioToolboxEncoder;
+			productName = AudioToolboxEncoder;
+			productReference = 18C3FDE91E55AD09004AB860 /* AudioToolboxEncoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C3FE011E55AD0A004AB860 /* AudioToolboxEncoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C3FE191E55AD0A004AB860 /* Build configuration list for PBXNativeTarget "AudioToolboxEncoderTests" */;
+			buildPhases = (
+				18C3FDFE1E55AD0A004AB860 /* Sources */,
+				18C3FDFF1E55AD0A004AB860 /* Frameworks */,
+				18C3FE001E55AD0A004AB860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C3FE041E55AD0A004AB860 /* PBXTargetDependency */,
+			);
+			name = AudioToolboxEncoderTests;
+			productName = AudioToolboxEncoderTests;
+			productReference = 18C3FE021E55AD0A004AB860 /* AudioToolboxEncoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18C3FE0C1E55AD0A004AB860 /* AudioToolboxEncoderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C3FE1C1E55AD0A004AB860 /* Build configuration list for PBXNativeTarget "AudioToolboxEncoderUITests" */;
+			buildPhases = (
+				18C3FE091E55AD0A004AB860 /* Sources */,
+				18C3FE0A1E55AD0A004AB860 /* Frameworks */,
+				18C3FE0B1E55AD0A004AB860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C3FE0F1E55AD0A004AB860 /* PBXTargetDependency */,
+			);
+			name = AudioToolboxEncoderUITests;
+			productName = AudioToolboxEncoderUITests;
+			productReference = 18C3FE0D1E55AD0A004AB860 /* AudioToolboxEncoderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C3FDE11E55AD08004AB860 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xiaokai.zhan;
+				TargetAttributes = {
+					18C3FDE81E55AD08004AB860 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MY5GTD35UJ;
+						ProvisioningStyle = Automatic;
+					};
+					18C3FE011E55AD0A004AB860 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MY5GTD35UJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18C3FDE81E55AD08004AB860;
+					};
+					18C3FE0C1E55AD0A004AB860 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MY5GTD35UJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18C3FDE81E55AD08004AB860;
+					};
+				};
+			};
+			buildConfigurationList = 18C3FDE41E55AD08004AB860 /* Build configuration list for PBXProject "AudioToolboxEncoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C3FDE01E55AD08004AB860;
+			productRefGroup = 18C3FDEA1E55AD09004AB860 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C3FDE81E55AD08004AB860 /* AudioToolboxEncoder */,
+				18C3FE011E55AD0A004AB860 /* AudioToolboxEncoderTests */,
+				18C3FE0C1E55AD0A004AB860 /* AudioToolboxEncoderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C3FDE71E55AD08004AB860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C3FDFC1E55AD0A004AB860 /* LaunchScreen.storyboard in Resources */,
+				18C3FDF91E55AD0A004AB860 /* Assets.xcassets in Resources */,
+				18C3FDF71E55AD0A004AB860 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C3FE001E55AD0A004AB860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C3FE0B1E55AD0A004AB860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C3FDE51E55AD08004AB860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C3FDF41E55AD09004AB860 /* ViewController.m in Sources */,
+				18C3FDF11E55AD09004AB860 /* AppDelegate.m in Sources */,
+				18C3FDEE1E55AD09004AB860 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C3FDFE1E55AD0A004AB860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C3FE071E55AD0A004AB860 /* AudioToolboxEncoderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C3FE091E55AD0A004AB860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C3FE121E55AD0A004AB860 /* AudioToolboxEncoderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C3FE041E55AD0A004AB860 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C3FDE81E55AD08004AB860 /* AudioToolboxEncoder */;
+			targetProxy = 18C3FE031E55AD0A004AB860 /* PBXContainerItemProxy */;
+		};
+		18C3FE0F1E55AD0A004AB860 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C3FDE81E55AD08004AB860 /* AudioToolboxEncoder */;
+			targetProxy = 18C3FE0E1E55AD0A004AB860 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18C3FDF51E55AD0A004AB860 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C3FDF61E55AD0A004AB860 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C3FDFA1E55AD0A004AB860 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C3FDFB1E55AD0A004AB860 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C3FE141E55AD0A004AB860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18C3FE151E55AD0A004AB860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C3FE171E55AD0A004AB860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MY5GTD35UJ;
+				INFOPLIST_FILE = AudioToolboxEncoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phuket.tour.audiotoolbox.encoder.AudioToolboxEncoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18C3FE181E55AD0A004AB860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MY5GTD35UJ;
+				INFOPLIST_FILE = AudioToolboxEncoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phuket.tour.audiotoolbox.encoder.AudioToolboxEncoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18C3FE1A1E55AD0A004AB860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MY5GTD35UJ;
+				INFOPLIST_FILE = AudioToolboxEncoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phuket.tour.audiotoolbox.encoder.AudioToolboxEncoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioToolboxEncoder.app/AudioToolboxEncoder";
+			};
+			name = Debug;
+		};
+		18C3FE1B1E55AD0A004AB860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MY5GTD35UJ;
+				INFOPLIST_FILE = AudioToolboxEncoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phuket.tour.audiotoolbox.encoder.AudioToolboxEncoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioToolboxEncoder.app/AudioToolboxEncoder";
+			};
+			name = Release;
+		};
+		18C3FE1D1E55AD0A004AB860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MY5GTD35UJ;
+				INFOPLIST_FILE = AudioToolboxEncoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phuket.tour.audiotoolbox.encoder.AudioToolboxEncoderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AudioToolboxEncoder;
+			};
+			name = Debug;
+		};
+		18C3FE1E1E55AD0A004AB860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MY5GTD35UJ;
+				INFOPLIST_FILE = AudioToolboxEncoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phuket.tour.audiotoolbox.encoder.AudioToolboxEncoderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AudioToolboxEncoder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C3FDE41E55AD08004AB860 /* Build configuration list for PBXProject "AudioToolboxEncoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C3FE141E55AD0A004AB860 /* Debug */,
+				18C3FE151E55AD0A004AB860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C3FE161E55AD0A004AB860 /* Build configuration list for PBXNativeTarget "AudioToolboxEncoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C3FE171E55AD0A004AB860 /* Debug */,
+				18C3FE181E55AD0A004AB860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18C3FE191E55AD0A004AB860 /* Build configuration list for PBXNativeTarget "AudioToolboxEncoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C3FE1A1E55AD0A004AB860 /* Debug */,
+				18C3FE1B1E55AD0A004AB860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18C3FE1C1E55AD0A004AB860 /* Build configuration list for PBXNativeTarget "AudioToolboxEncoderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C3FE1D1E55AD0A004AB860 /* Debug */,
+				18C3FE1E1E55AD0A004AB860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C3FDE11E55AD08004AB860 /* Project object */;
+}
